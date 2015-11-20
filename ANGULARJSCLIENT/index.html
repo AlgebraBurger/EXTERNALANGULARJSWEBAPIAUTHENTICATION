@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="payrollApp" ng-controller="payrollCtrl">
+	<head>
+		<title>HRPAYROLL APPLICATION</title>
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" >
+	 	<script type="text/javascript" src="/bower_components/angular/angular.js" charset="UTF-8"></script>
+	 	<script type="text/javascript" src="/bower_components/jquery/dist/jquery.js" charset="UTF-8"></script>
+		 
+		<script type="text/javascript" src="/app/app.js" charset="UTF-8"></script>
+	 	<script type="text/javascript" src="/app/controllers/payrollCtrl.js" charset="UTF-8"></script>
+	 		 
+		<style>	 
+  		</style>
+		  
+	</head>		
+	<body>
+		<div class="container-fluid">
+			<div ng-click="CallApi()" class="btn btn-success"> Call API</div>
+			<div ng-click="CALLOPEN()" class="btn btn-warning"> Call OPENAPI</div>
+			
+			<div ng-click="LOGIN()" class="btn btn-default"> LOGIN</div>
+			<div ng-click="LOGOUT()" class="btn btn-danger"> LOGOUT</div>						
+		</div>	
+	</body>			
+</html>	
