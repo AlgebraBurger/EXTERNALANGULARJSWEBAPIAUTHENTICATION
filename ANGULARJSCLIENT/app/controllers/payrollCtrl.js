@@ -46,7 +46,7 @@ angular.module("payrollApp")
                 var loginD = {
                 grant_type:"password",
                 username:'juliusbacosa@gmail.com',
-                password:'Admin*88'
+                password:'---'
                 };
         
                 var transform = function(data){
