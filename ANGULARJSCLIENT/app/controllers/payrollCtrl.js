@@ -10,14 +10,14 @@ angular.module("payrollApp")
         
 	
 		
-	// var data = {Email:'juliusbacosa@gmail.com',Password:'Admin*88',ConfirmPassword:'Admin*88'};
+	// var data = {Email:'juliusbacosa@gmail.com',Password:'---',ConfirmPassword:'---'};
 	// $http.post(baseurl + "/api/account/register", data ).success(function (data) {           
         // }).error(function (error) {            
         // }).finally(function () {        	
         // });
 	// 
 		
-	// var data2 = {Email:'alphabeta@live.com',Password:'Admin*88',ConfirmPassword:'Admin*88'};
+	// var data2 = {Email:'alphabeta@live.com',Password:'---',ConfirmPassword:'---'};
 	// $http.post(baseurl + "/api/account/register", data2 ).success(function (data) {           
         // }).error(function (error) {            
         // }).finally(function () {        	
@@ -28,7 +28,7 @@ angular.module("payrollApp")
         //         var loginData = {
         //         grant_type: 'password',
         //                 username: 'juliusbacosa@gmail.com',
-        //                 password: 'Admin*88'
+        //                 password: '---'
         //         };
         //         
         //         $http.post(baseurl + "/Token", loginData ).success(function (data) {
